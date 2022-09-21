@@ -1,3 +1,5 @@
+import pygame
+
 TURTLE_AMOUNT = 4
 ARRAY_SIZE = 21
 
@@ -15,3 +17,8 @@ UP = 'UP'
 DOWN = 'DOWN'
 LEFT = 'LEFT'
 RIGHT = 'RIGHT'
+
+#screen:
+FPS = 60
+WINDOW_WIDTH, WINDOW_HEIGHT = 420, 400
+WINDOW = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
