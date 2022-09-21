@@ -13,6 +13,15 @@ def add_trash():
 def get_random_trash():
     return Consts.TRASHES_LIST[random.randint(0, 2)]
 
+
+def get_first_trash_index():
+    pass
+
+
+def remove_trash(index):
+    pass
+
+
 def count_trash_in_row(row):
     count = 0
     for i in row:
